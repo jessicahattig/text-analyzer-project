@@ -20,9 +20,10 @@ function numberOfOccurrencesInText(word, text) {
   let wordCount = 0;
   textArray.forEach(function(element.toLowerCase()) {
     if (word === element) {
-      wordCount++
-    }
-  });
+      (element.toLowerCase().includes(word.toLowerCase())) {
+        wordCount++;
+      }
+    });
+  
   return wordCount;
 }
-
