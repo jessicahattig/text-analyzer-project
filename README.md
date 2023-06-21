@@ -37,3 +37,11 @@ const word = "red";
 numberOfOccurrencesInText(word, text);
 Expected Output: 0
 
+Test: "It should return 1 occurrence of a word when the word and the text are the same."
+Code:
+const text = "red";
+const word = "red";
+numberOfOccurrencesInText(word, text);
+Expected Output: 1
+
+
