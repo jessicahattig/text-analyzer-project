@@ -34,10 +34,22 @@ function numberOfOccurrencesInText(word, text) {
   return wordCount;
 }
 
+function countVowels(text) {
+  const vowels = ["a", "e", "i", "o", "u", "y"];
+  let vowelCount = 0
+  vowels.forEach(function(element) {
+    if (element.includes(vowels))
+    vowelCount++;
+  });
+  
+}
+
 function omitSwearWords (text) {
   let textArray = (text.replace(/(zoinks)|(loopdeeloop)|(muppeteer)|(biffaroni)/ig, ' '));
   return textArray; 
 }
+
+
 
 // UI Logic
 
