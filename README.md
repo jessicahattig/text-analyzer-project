@@ -72,3 +72,11 @@ const text = "Red! Red. I like red, green, and yellow.";
 const word = "Red";
 numberOfOccurrencesInText(word, text);
 Expected Output: 3
+
+Describe(removeOffensiveWordsInText)
+  Test: It should return text without the word 'zoink'.
+  Code:
+  const text = "omg, i stubbed my toe, zoink!"
+  const word = "zoink";
+  removeOffensiveWordsInText (word, text)
+  Expected Output: "omg, i stubbed my toe,!"

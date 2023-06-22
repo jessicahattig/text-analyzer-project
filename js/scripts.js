@@ -27,3 +27,7 @@ function numberOfOccurrencesInText(word, text) {
   
   return wordCount;
 }
+
+function removeOffensiveWordsInText(word, text) {
+  const textArray = text.replace (' '));
+  textArray.forEach(function(element('zoinK', ' ')
